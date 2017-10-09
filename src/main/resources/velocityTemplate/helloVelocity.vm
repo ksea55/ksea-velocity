@@ -1,0 +1,8 @@
+#set($hello="hello")
+
+打印变量值: $hello $name
+
+对list数组进行遍历结果:
+#foreach($i in $list)
+    $i
+#end
